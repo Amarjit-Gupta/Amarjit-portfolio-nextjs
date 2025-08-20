@@ -7,14 +7,14 @@ export const POST = async (req) => {
         port: 587,
         secure: false,
         auth: {
-            user: process.env.EMAIL_ID,
-            pass: process.env.PASSWORD
+            user: "guptamantu775@gmail.com",
+            pass: "xvjucjcqxmtqezra"
         }
     });
 
     let mailOption = ({
         from: `${name} <${email}>`,
-        to: process.env.EMAIL_ID,
+        to: "guptamantu775@gmail.com",
         subject: `You received a message via your portfolio from ${name}`,
         html: `<div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; max-width: 600px; margin: auto; border-radius: 10px; background-color: #f9f9f9; overflow: hidden;">
     <div style="background-color: #52c956ff; padding: 20px; text-align: center;">
