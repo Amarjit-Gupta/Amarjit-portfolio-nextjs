@@ -1,3 +1,4 @@
+"use client"
 import { IoMdContact } from "react-icons/io";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { MdOutlineContentCopy } from "react-icons/md";

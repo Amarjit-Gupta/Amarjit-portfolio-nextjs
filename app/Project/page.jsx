@@ -1,3 +1,4 @@
+"use client"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -26,7 +27,6 @@ const Project = ({ main }) => {
             <p className="project-text"><span>My Project</span></p>
             <div className="project1">
                 <div className="project-item" data-aos="fade-up">
-                    {/* <img src="./images/password.png" alt="" /> */}
                       <Image src={password} alt="" placeholder="blur" width={269} height={182}/>
                     <p className="project-paragraph"> It generates customizable passwords based on user-selected criteria such as uppercase letter, lowercase letter, numbers, and symbols. It also features password length customization and copy functionality.</p>
                     <div className="link-btn">
@@ -35,7 +35,6 @@ const Project = ({ main }) => {
                     </div>
                 </div>
                 <div className="project-item" data-aos="fade-up">
-                    {/* <img src="./images/ecommerce.png" alt="" /> */}
                       <Image src={ecommerce} alt="" placeholder="blur" width={269} height={182}/>
                     <p className="project-paragraph">This project is a responsive e-commerce website featuring product categories, a dynamic image slider, and interactive product pages. It includes a loader, animations, and a contact form for user engagement.</p>
                     <div className="link-btn">
@@ -44,7 +43,6 @@ const Project = ({ main }) => {
                     </div>
                 </div>
                 <div className="project-item" data-aos="fade-up">
-                    {/* <img src="./images/weather.png" alt="" /> */}
                       <Image src={weather} alt="" placeholder="blur" width={269} height={182}/>
 
                     <p className="project-paragraph">This is a weather app built with React, allowing us to search weather details by city. It displays temperature,humidity, wind speed,and temperature,with a light/dark mode toggle and loading indicator.</p>
@@ -54,7 +52,6 @@ const Project = ({ main }) => {
                     </div>
                 </div>
                 <div className="project-item" data-aos="fade-up">
-                    {/* <img src="./images/todo.png" alt="" /> */}
                       <Image src={todo} alt="" placeholder="blur" width={269} height={182}/>
                     <p className="project-paragraph">This todo list allows us to add,edit,delete,clear all tasks and mark tasks as complete. It saves tasks in localstorage and features a colorful, animated background with custom-styled input and buttons.</p>
                     <div className="link-btn">
@@ -63,7 +60,6 @@ const Project = ({ main }) => {
                     </div>
                 </div>
                 <div className="project-item" data-aos="fade-up">
-                    {/* <img src="./images/temprature.png" alt="" /> */}
                       <Image src={temprature} alt="temperature-image" placeholder="blur" width={269} height={182}/>
                     <p className="project-paragraph">This project is a temperature conversion tool
                         that converts Celsius, Fahrenheit, Kelvin, and Reaumur scales. It has live updates by JS, done UI with a responsive design, and clear reset button.</p>
@@ -73,7 +69,6 @@ const Project = ({ main }) => {
                     </div>
                 </div>
                 <div className="project-item" data-aos="fade-up">
-                    {/* <img src="./images/signup.png" alt="" /> */}
                       <Image src={signup} alt="" placeholder="blur" width={269} height={182}/>
                     <p className="project-paragraph">This e-commerce web app allows us to sign up, log in, manage products, and perform CRUD operations. Features include product listing, adding, editing, deleting, searching, and secure authentication with private routes.</p>
                     <div className="link-btn">

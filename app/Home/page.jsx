@@ -1,3 +1,4 @@
+"use client"
 import { useTypewriter } from "react-simple-typewriter";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
