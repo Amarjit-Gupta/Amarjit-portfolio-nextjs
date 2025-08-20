@@ -18,7 +18,7 @@ export const metadata = {
   },
   description:
     "Amarjit Gupta | Web Developer Portfolio showcasing projects, skills, and expertise in React, Next.js, and full-stack development.",
-  keywords: ["Amarjit Gupta", "Portfolio", "Web Developer", "React", "Next.js", "MERN Stack"],
+  keywords: ["Amarjit Gupta", "Portfolio", "Web Developer", "React", "Next.js", "MERN Stack","Amarjit gupta Portfolio"],
   icons: {
     icon: "/images/kody.png",
   },
@@ -26,7 +26,7 @@ export const metadata = {
   openGraph: {
     title: "Amarjit Gupta Portfolio",
     description: "Amarjit Gupta | Web Developer Portfolio showcasing projects, skills, and expertise in React, Next.js, and full-stack development.",
-    url: "https://amarjitgupta.com",
+    url: "https://amarjit-portfolio-012.vercel.app/",
     siteName: "Amarjit Gupta",
     images: [
       {
