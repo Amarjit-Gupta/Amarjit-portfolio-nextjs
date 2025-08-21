@@ -19,7 +19,7 @@ const About = () => {
             <div className="about-text"><span>About Me</span></div>
             <div className="about1">
                 <div className="about-child" data-aos="fade-up">
-                    <Image src={programmer} alt="broken" placeholder="blur" width={445} height={445}/>
+                    <Image src={programmer} alt="Programmer illustration" placeholder="blur" width={445} height={445}/>
                     </div>
                 <div className="about-child" data-aos="fade-up">
                     <p className="about-paragraph">

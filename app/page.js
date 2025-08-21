@@ -32,18 +32,18 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoader(false);
-    }, 1500);
+    }, 1000);
   }, []);
 
   return (
     <div className={` ${main ? "dark" : "p1"}`}>
       {loader ? <div className="loader"><img src="/loader.gif" alt="Loading..." /></div> : ""}
       <Header handleMain={handleMain} main={main} />
-      <Home />
+      <Home main={main} />
       <About />
       <Skills />
       <Project main={main} />
-      <Contact />
+      <Contact main={main} />
       <Footer main={main} />
     </div>
   );

@@ -7,12 +7,12 @@ import { useEffect, useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import contact from "@/public/contact.png";
 import Image from "next/image";
+import contact from "@/public/contact.png";
 import { RiLoader2Line } from "react-icons/ri";
 import { FiCheck } from "react-icons/fi";
 
-const Contact = () => {
+const Contact = ({main}) => {
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -132,18 +132,22 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="contact-item" data-aos="fade-up">
-                    <Image src={contact} alt="" placeholder="blur" />
+                    <Image src={contact} alt="contact information" placeholder="blur" />
                     <div className="contactitem">
                         <div className="contactitem1">
                             <div className="c1"><IoMdContact /></div>
                             <div className="c1"><FaWhatsappSquare /></div>
                             <div className="c1">9696587251</div>
-                            <div className="c1" onClick={handleNumber}>{numIcon ? <FiCheck className="copy" /> : <MdOutlineContentCopy className="copy" />}</div>
+                            <button className={`c1 ${main?"dark":""}`} onClick={handleNumber} disabled={numIcon}>
+                                {numIcon ? <FiCheck className="copy" /> : <MdOutlineContentCopy className="copy" />}
+                            </button>
                         </div>
                         <div className="contactitem1">
                             <div className="c1"><MdOutlineMailOutline /></div>
                             <div className="c1">guptaamarjit777@gmail.com</div>
-                            <div className="c1" onClick={handleEmail}>{emailIcon ? <FiCheck className="copy" /> : <MdOutlineContentCopy className="copy" />}</div>
+                            <button className={`c1 ${main?"dark":""}`} onClick={handleEmail} disabled={emailIcon}>
+                                {emailIcon ? <FiCheck className="copy" /> : <MdOutlineContentCopy className="copy" />}
+                            </button>
                         </div>
                     </div>
                 </div>

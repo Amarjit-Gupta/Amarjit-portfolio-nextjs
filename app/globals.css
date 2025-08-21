@@ -130,22 +130,34 @@ html {
 }
 
 .txt4 {
-    height: 3rem;
-    width: 11rem;
-    align-content: center;
-    text-align: center;
+    height: 3.2rem;
     margin-top: 5rem;
-    border-radius: 1.5rem;
-    font-size: 2.5rem;
     padding: 0.5rem;
-    border: rgb(247, 243, 243) solid 0.1rem;
-    background-image: linear-gradient(145deg, rgb(237, 157, 157), rgb(138, 234, 138));
-    transition-duration: 0.5s;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
 }
 
-.txt4:hover {
-    background-image: linear-gradient(145deg, rgb(66, 225, 66), rgb(227, 173, 182), rgb(230, 230, 119));
-    transform: scale3d(1.04, 1.04, 1.04)
+.icon1 {
+    font-size: 4.2rem;
+    color: black;
+    display: block;
+    margin-top: 0.6rem;
+}
+
+.txt4 .icon2 {
+    font-size: 3.5rem;
+}
+
+.txt4 .icon3 {
+    font-size: 3.2rem;
+}
+
+.txt4 .icon1:hover,
+.icon2:hover,
+.icon3:hover {
+    transform: translateY(-0.5rem);
+    transition: transform 0.3s ease;
 }
 
 .txt4 a {
@@ -420,8 +432,6 @@ textarea {
     border: grey solid 0.15rem;
     color: green;
     position: relative;
-
-
 }
 
 .send-form {
@@ -450,8 +460,6 @@ textarea {
         transform: rotate(360deg);
     }
 }
-
-
 
 .submit-btn:hover {
     color: red;
@@ -501,12 +509,19 @@ textarea {
     justify-content: space-around;
     align-items: center;
     box-shadow: 0rem 0.2rem 0.5rem rgb(119, 119, 230);
+    border-radius: 0.5rem;
 }
 
 .c1 {
     font-size: 2rem;
     display: flex;
     align-items: center;
+    border: 0;
+    background-color: transparent;
+}
+
+.c1:disabled {
+    color: black;
 }
 
 .copy:hover {
@@ -643,6 +658,10 @@ textarea {
 .dark {
     color: white;
     background-image: linear-gradient(rgb(24, 24, 72), rgb(24, 24, 72));
+}
+
+.dark:disabled {
+    color: white;
 }
 
 .sp {
