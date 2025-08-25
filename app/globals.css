@@ -616,7 +616,7 @@ textarea {
 
     .project1 {
         grid-template-columns: repeat(2, 28.5rem);
-        grid-template-rows: repeat(4, 45rem);
+        grid-template-rows: repeat(5, 45rem);
     }
 
     .contact1 {
@@ -633,7 +633,7 @@ textarea {
 
     .project1 {
         grid-template-columns: repeat(1, 28.5rem);
-        grid-template-rows: repeat(8, 45rem);
+        grid-template-rows: repeat(9, 45rem);
     }
 
     .scroll-btn {
