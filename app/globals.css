@@ -11,11 +11,6 @@ html {
     font-family: georia, serif;
 }
 
-body::selection {
-            background: rgb(235, 246, 250);
-            color: inherit;
-        }
-
 .header {
     height: 10rem;
     width: 100%;
