@@ -7,6 +7,7 @@ import signup from "@/public/signup.png";
 import e_commerce from "@/public/e_commerce.png";
 import chatapp from "@/public/chatapp.png";
 import stopwatch from "@/public/stopwatch.png";
+import crud from "@/public/crud.png";
 
 export const projects = [
     {
@@ -77,8 +78,16 @@ export const projects = [
         id: 9,
         src: signup,
         alt: "user registration",
-        txt: "This e-commerce web app allows us to sign up, log in, manage products, and perform CRUD operations. Features include product listing, adding, editing, deleting, searching, and secure authentication with private routes.",
-        github: "https://github.com/Amarjit-Gupta/mern_authentication_CRUD",
-        link: "https://mern-frontend-70hf.onrender.com/signup"
+        txt: "Developed a secure full-stack MERN application with JWT authentication, OTP-based account verification, encrypted password reset, and dynamic product management featuring real-time search filters.",
+        github: "https://github.com/Amarjit-Gupta/MERN-CRUD",
+        link: "https://mern-crud-5r83.vercel.app/"
+    },
+    {
+        id: 10,
+        src: crud,
+        alt: "CRUD-AUTH",
+        txt: "Developed a secure MERN stack application with robust user authentication, JWT-based authorization, and isolated data access, enabling users to perform CRUD operations on their own student records.",
+        github: "https://github.com/Amarjit-Gupta/node_auth_multipleuser",
+        link: "https://auth-crud-le99.onrender.com/"
     }
 ]

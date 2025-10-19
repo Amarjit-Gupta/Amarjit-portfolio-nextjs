@@ -298,7 +298,7 @@ html {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 28.5rem);
-    grid-template-rows: repeat(3, 45rem);
+    grid-template-rows: repeat(4, 45rem);
     justify-content: center;
     column-gap: 10rem;
     row-gap: 7rem;
@@ -633,7 +633,7 @@ textarea {
 
     .project1 {
         grid-template-columns: repeat(1, 28.5rem);
-        grid-template-rows: repeat(9, 45rem);
+        grid-template-rows: repeat(10, 45rem);
     }
 
     .scroll-btn {
