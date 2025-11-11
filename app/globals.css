@@ -405,6 +405,7 @@ label {
     padding: 0rem 0.5rem 0rem 0.5rem;
     border: grey solid 0.1rem;
     margin-top: 0.4rem;
+    resize: none;
 }
 
 textarea {
